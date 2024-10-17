@@ -2,7 +2,7 @@ import datetime
 
 class Rekins:
     def __init__(self):
-        # Ievadīt klienta datus un lādītes specifikācijas
+        # Ievadīt klienta datus un izmeru 
         self.klients_vards = input("Lūdzu, ievadiet klienta vārdu: ")
         self.teksts_veltijuma = input("Lūdzu, ievadiet veltījuma tekstu: ")
 
