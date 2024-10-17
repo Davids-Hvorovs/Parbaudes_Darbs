@@ -16,7 +16,7 @@ def izveidot_rekinu():
 
     materiala_cena = float(input("Lūdzu, ievadiet kokmateriāla cenu (EIRO/m2): "))
 
-    # 3. Programma izveido rēķinu, kā īpašības saglabājot:
+
     rekins = {
         "datums": datetime.datetime.now(),
         "klienta_vards": klients_vards,
@@ -65,7 +65,6 @@ def izveidot_rekinu():
         fails.write(f"Darba samaksa: {darba_samaksa:.2f} EUR\n")
         fails.write(f"PVN (21%): {rekins['PVN_summa']:.2f} EUR\n")
         fails.write(f"Kopējā summa: {rekins['rekina_summa']:.2f} EUR\n")
-
     # 7. Programma beidz darbu
     print("\nRēķins izveidots un saglabāts failā.")
     print("Programma ir beigusies.")
